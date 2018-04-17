@@ -21,12 +21,20 @@ brew "libtool"
 brew "imagemagick"
 brew "ipfs"
 brew "memcached"
+brew "nvm"
 brew "libmemcached"
 brew "libxml2"
 brew "mas"
+brew "marven"
+brew "mhash"
+brew "mcrypt"
+brew "mongodb", restart_service: true
+brew "nginx", restart_service: true
+brew "openssl@1.1"
 brew "postgresql", restart_service: true
 brew "python"
 brew "redis", restart_service: true
+brew "watchman"
 brew "wget"
 brew "yarn"
 cask "android-studio"
