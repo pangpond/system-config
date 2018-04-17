@@ -12,6 +12,7 @@ cask "java"
 brew "autoconf"
 brew "automake"
 brew "isl"
+brew "composer"
 brew "curl"
 brew "docker", link: false
 brew "gettext"
@@ -30,7 +31,7 @@ brew "libyaml"
 brew "lynx"
 brew "mariadb", restart_service: true
 brew "mas"
-brew "marven"
+brew "maven"
 brew "mhash"
 brew "mcrypt"
 brew "mongodb", restart_service: true
