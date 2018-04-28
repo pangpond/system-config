@@ -8,9 +8,9 @@ tap "luckyframework/lucky"
 tap "mapbox/cli"
 tap "pothosware/pothos"
 tap "rcmdnk/file"
-cask "java"
 brew "autoconf"
 brew "automake"
+brew "composer"
 brew "curl"
 brew "docker", link: false
 brew "gettext"
@@ -35,9 +35,9 @@ brew "mongodb", restart_service: true
 brew "nginx", restart_service: true
 brew "nvm"
 brew "openssl@1.1"
-brew "php"
+brew "php", restart_service: true
 brew "php-cs-fixer"
-brew "php@7.1"
+brew "pkg-config"
 brew "postgresql", restart_service: true
 brew "python"
 brew "redis", restart_service: true
@@ -50,16 +50,20 @@ cask "android-studio"
 cask "bartender"
 cask "chromium"
 cask "daisydisk"
+cask "dash"
 cask "docker"
 cask "docker-toolbox"
 cask "dropbox"
 cask "expo-xde"
 cask "firefox"
+cask "flux"
 cask "github"
+cask "google-backup-and-sync"
+cask "google-chrome"
 cask "google-drive-file-stream"
 cask "graphiql"
 cask "istat-menus"
-cask "iterm2"
+cask "java"
 cask "jaxx"
 cask "kitematic"
 cask "macdown"
@@ -86,10 +90,11 @@ cask "caskroom/fonts/font-menlo-for-powerline"
 mas "Day One", id: 1055511498
 mas "GIPHY CAPTURE", id: 668208984
 mas "Icon Set Creator", id: 939343785
-mas "Keka", id: 470158793
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "The Unarchiver", id: 425424353
+mas "Typeface", id: 1062679359
 mas "typeface", id: 1062679359
 mas "Xcode", id: 497799835
