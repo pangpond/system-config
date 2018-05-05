@@ -8,6 +8,8 @@ tap "luckyframework/lucky"
 tap "mapbox/cli"
 tap "pothosware/pothos"
 tap "rcmdnk/file"
+
+# Couple of mandatory applications
 brew "autoconf"
 brew "automake"
 brew "composer"
@@ -41,11 +43,25 @@ brew "pkg-config"
 brew "postgresql", restart_service: true
 brew "python"
 brew "redis", restart_service: true
+brew 'vim'
 brew "watchman"
 brew "wget"
 brew "yarn"
+
+# completions
 brew "zsh-history-substring-search"
 brew "zsh-syntax-highlighting"
+brew 'bash-completion'
+brew 'brew-cask-completion'
+brew 'zsh-completions'
+
+# Special fonts
+cask 'font-source-code-pro-for-powerline'
+cask 'font-hack-nerd-font'
+cask 'font-menlo-for-powerline'
+
+
+# Mac GUIs Apps
 cask "android-studio"
 cask "bartender"
 cask "chromium"
@@ -85,8 +101,11 @@ cask "transmit"
 cask "virtualbox"
 cask "visual-studio-code"
 cask "vlc"
+
 cask "caskroom/fonts/font-hack-nerd-font"
 cask "caskroom/fonts/font-menlo-for-powerline"
+
+# Mac Store Apps
 mas "Day One", id: 1055511498
 mas "GIPHY CAPTURE", id: 668208984
 mas "Icon Set Creator", id: 939343785
