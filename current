@@ -1,0 +1,34 @@
+#### brew list
+
+apr				gmp				libimobiledevice		memcached			prisma
+apr-util			gradle				libmemcached			mhash				python
+argon2				grafana				libmetalink			mongodb				python@2
+aspell				gx				libomp				nghttp2				readline
+autoconf			gx-go				libplist			nginx				redis
+automake			icu4c				libpng				node				rtmpdump
+brotli				ideviceinstaller		libpq				nvm				shared-mime-info
+c-ares				ilmbase				libsodium			openexr				sqlite
+cocoapods			ios-deploy			libssh2				openjpeg			tidy-html5
+composer			ipfs				libtasn1			openldap			unixodbc
+curl				isl				libtiff				openssl				usbmuxd
+curl-openssl			jansson				libtool				openssl@1.1			watchman
+dfu-util			jemalloc			libunistring			pcre				webp
+docker				jpeg				libusb				pcre2				wget
+freetds				libde265			libxml2				php				x265
+freetype			libev				libyaml				php-cs-fixer			xz
+gdbm				libevent			libzip				php72-phalcon			yarn
+gettext				libffi				little-cms2			php@7.2				zsh-autosuggestions
+gist				libheif				lynx				phpunit				zsh-history-substring-search
+git				libiconv			mariadb				pkg-config			zsh-syntax-highlighting
+git-flow			libidn				mas				postgresql
+glib				libidn2				mcrypt				postgresql@10
+
+
+#### brew cask list
+adoptopenjdk8              docker                     github                     java                       openoffice                 spotify                    vlc
+android-studio             dropbox                    google-backup-and-sync     kitematic                  paragon-ntfs               tableplus
+applepi-baker              expo-xde                   google-chrome              macdown                    postman                    teamviewer
+bartender                  firefox                    google-drive-file-stream   microsoft-office           react-native-debugger      ticktick
+chromium                   flux                       graphiql                   monolingual                sketch                     transmit
+daisydisk                  font-hack-nerd-font        istat-menus                ngrok                      sketch-toolbox             virtualbox
+dash                       font-menlo-for-powerline   iterm2                     omniplan                   sketchpacks                visual-studio-code
