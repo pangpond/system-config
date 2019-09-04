@@ -5,6 +5,13 @@ This is mentioned and referenced in my [macOS 10.13 High Sierra Mostly-Automated
 
 
 
+### List current brew package
+```
+brew list
+
+```
+
+### Install PHP extensions
 ```
 pecl install imagick
 pecl install curl
