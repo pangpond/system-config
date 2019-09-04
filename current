@@ -32,3 +32,25 @@ bartender                  firefox                    google-drive-file-stream  
 chromium                   flux                       graphiql                   monolingual                sketch                     transmit
 daisydisk                  font-hack-nerd-font        istat-menus                ngrok                      sketch-toolbox             virtualbox
 dash                       font-menlo-for-powerline   iterm2                     omniplan                   sketchpacks                visual-studio-code
+
+
+
+#### ls /usr/local/Cellar/
+apr                          gist                         libde265                     libtiff                      nvm                          python@2
+apr-util                     git                          libev                        libtool                      openexr                      readline
+argon2                       git-flow                     libevent                     libunistring                 openjpeg                     redis
+aspell                       glib                         libffi                       libusb                       openldap                     rtmpdump
+autoconf                     gmp                          libheif                      libxml2                      openssl                      shared-mime-info
+automake                     gradle                       libiconv                     libyaml                      openssl@1.1                  sqlite
+brotli                       grafana                      libidn                       libzip                       pcre                         tidy-html5
+c-ares                       gx                           libidn2                      little-cms2                  pcre2                        unixodbc
+cocoapods                    gx-go                        libimobiledevice             lynx                         php                          usbmuxd
+composer                     icu4c                        libmemcached                 mariadb                      php-cs-fixer                 watchman
+curl                         ideviceinstaller             libmetalink                  mas                          php72-phalcon                webp
+curl-openssl                 ilmbase                      libomp                       mcrypt                       php@7.2                      wget
+dfu-util                     ios-deploy                   libplist                     memcached                    phpunit                      x265
+docker                       ipfs                         libpng                       mhash                        pkg-config                   xz
+freetds                      isl                          libpq                        mongodb                      postgresql                   yarn
+freetype                     jansson                      libsodium                    nghttp2                      postgresql@10                zsh-autosuggestions
+gdbm                         jemalloc                     libssh2                      nginx                        prisma                       zsh-history-substring-search
+gettext                      jpeg                         libtasn1                     node                         python                       zsh-syntax-highlighting
